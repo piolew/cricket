@@ -1,4 +1,12 @@
 # Overview
+
+
+Reference-style: 
+![alt text][cricket_overview]
+
+[cricket_overview]: https://github.com/thingsonedge/cricket/blob/master/gfx/UseCases.png "Logo Title Text 2"
+
+
 [Cricket® Ultra-Low battery poered WiFi module](https://docs.google.com/document/d/1zjO7xJTKCzEvk4kBmdfn99eWAzofOHkFEcjfTbvVl10/edit?usp=sharing)
 
 # MQTT topics 
