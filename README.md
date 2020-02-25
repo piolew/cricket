@@ -23,7 +23,7 @@ Main features:
 Reference-style: 
 ![alt text][cricket_overview]
 
-<img src="gfx/drawing.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/thingsonedge/cricket/blob/master/gfx/UseCases.png" alt="drawing" width="200"/>
 
 [cricket_overview]: https://github.com/thingsonedge/cricket/blob/master/gfx/UseCases.png "Logo Title Text 2"
 
