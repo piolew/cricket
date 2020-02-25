@@ -1,13 +1,32 @@
 # Overview
 
+Cricket is a ultra-low battery powered WiFi module, which can last for years on single batteries. 
+It requires zero-code for building IoT devices an no hub to conenct to the internet.
+It comes with a pre-installed software, which is integrated into Cloud. 
+Connect devices to the internet out of the box either from a smartphone or a laptop from any web browser. 
+Manage devices remotely and integrate to other systems using MQTT protocol. 
+
+
+Main features:
+* Can operate on a single AAA battery
+* Ultra-low power, true 0A current when not in operation
+* Built-in RTC used for wake_up
+* Built-in temperature sensor
+* Analog or Digital input for sensor
+* Over-the-Air FW upgrade
+* Cloud enabled HW configuration
+* Battery monitor
+* MQTT
+* Easy integration with IFTTT
+
 
 Reference-style: 
 ![alt text][cricket_overview]
 
+<img src="gfx/drawing.jpg" alt="drawing" width="200"/>
+
 [cricket_overview]: https://github.com/thingsonedge/cricket/blob/master/gfx/UseCases.png "Logo Title Text 2"
 
-
-[Cricket® Ultra-Low battery poered WiFi module](https://docs.google.com/document/d/1zjO7xJTKCzEvk4kBmdfn99eWAzofOHkFEcjfTbvVl10/edit?usp=sharing)
 
 # MQTT topics 
 
