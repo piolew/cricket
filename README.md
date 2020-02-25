@@ -22,6 +22,61 @@ Main features:
 
 <img src="https://github.com/thingsonedge/cricket/blob/master/gfx/UseCases.png" alt="drawing" width="800"/>
 
+
+TBD
+MEasure Wake-up hi level 
+
+# HW description
+
+## Pins definition
+
+|Pin   | Description | 
+|---|---|
+|BATT| Power supply VDD to the board, this can be connected directly to the battery |
+|3V3| Output power from internal regulator. This is always 3.3V regardless on BATT voltage level |
+|WAKE_UP|HI level on that pin will turn board on|
+|IO2|Ditigal or Analog input signal|
+|IO3|Reserved|
+|GND|Ground|
+|||
+
+# Module operations
+The Cricket have 2 mode of operations 
+
+* Normal
+* Binding 
+
+In normal operation board is in off state and waits for wake_up signal which can be provided either by applying HI level voltage to the WAKE_UP signal or from internal RTC chip which is configured from the cloud service.
+Once the board wakes up it perform initialization and properties evaluation, if any of the enabled properties is changed the module will initialize WiFi conenctio and send updated values to the cloud service using either MQTT or HTTP Post method.
+
+<img src="https://github.com/thingsonedge/cricket/blob/master/gfx/Operation.svg" alt="drawing" width="800"/>
+
+
+
+
+### Wake_up singal
+The module can operate 
+
+
+## Recomended operating conditions
+
+|Operating Condition   | Symbol | Min | Typ | Max | Unit
+|---|---|---|---|---|---
+|Supply voltage| BATT | 1 | 3 | 3.5 | V
+|Operating temperature|  | -40 | 20 | 125 | ℃
+|Wake up voltage| Wake_up | 1 | 3 | 3.5 | V
+||||||
+
+# Configuration
+
+# Binding
+
+# MQTT
+
+# HTTP Push 
+
+
+
 # MQTT topics 
 
 Topic template
