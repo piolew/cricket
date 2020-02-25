@@ -1,6 +1,6 @@
 # Overview
 
-Cricket is a ultra-low battery powered WiFi module, which can last for years on single batteries. 
+Cricket is a ultra-low battery powered Wi-Fi module, which can last for years on single batteries. 
 It requires zero-code for building IoT devices an no hub to conenct to the internet.
 It comes with a pre-installed software, which is integrated into Cloud. 
 Connect devices to the internet out of the box either from a smartphone or a laptop from any web browser. 
