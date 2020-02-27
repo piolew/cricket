@@ -1,4 +1,4 @@
-[<img src="https://github.com/thingsonedge/cricket/blob/master/gfx/Leaflet-small.png" alt="drawing" width="800"/>](https://drive.google.com/file/d/1iJMbLQAMSyVuPYkd0Aa7GaR6Jpp-wKcA/view?usp=sharing)
+[<img src="https://github.com/thingsonedge/cricket/blob/master/gfx/Leaflet-small.png" alt="drawing" width="399"/>](https://drive.google.com/file/d/1iJMbLQAMSyVuPYkd0Aa7GaR6Jpp-wKcA/view?usp=sharing)
 
 # Overview
 
