@@ -1,4 +1,4 @@
-[<img src="https://github.com/thingsonedge/cricket/blob/master/gfx/Leaflet-small.png" alt="drawing" width="200"/>](https://drive.google.com/file/d/1iJMbLQAMSyVuPYkd0Aa7GaR6Jpp-wKcA/view?usp=sharing)
+[<img src="/gfx/Leaflet-small.png" alt="drawing" width="200"/>](https://drive.google.com/file/d/1iJMbLQAMSyVuPYkd0Aa7GaR6Jpp-wKcA/view?usp=sharing)
 
 # Overview
 
@@ -133,8 +133,8 @@ Template
 
 **/{SN}/{prop}**
 
-where
-SN    - Module unique serial nuber 
+where<br>
+SN    - Module unique serial number <img src="gfx/Cricket-serial-number-400px.png" width="150"/><br>
 prop  - Module property/sensor type
 
 |Name   | Format | Unit | Example  | Description  | 
