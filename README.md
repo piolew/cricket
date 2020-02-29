@@ -102,10 +102,10 @@ It opens the "<b>toe_device</b>" WiFi hotspot.<br>
 Once the LED is constantly lit Cricket opened the "<b>toe_device</b>" private Wi-Fi hot spot. Connect to this hot spot either from a laptop or smartphone with the following credentials:
 SSID: <b>toe_device</b>
 Password: <b>thingsonedge</b>
-<img src="/static/bind_module_hotspot.jpg"/>
+<img src="gfx/1_connect_to_hotspot_.png" width="300"/>
 <h4>Step 3.</h4>
 Open <a href="http://192.168.4.1/index.html" target="_blank"><b>http://192.168.4.1/index.html</b></a> from any web browser. Type your WiFi credentials and connect. Now your module is connected!<br>
-<img src="/static/bind_module_browser.jpg"/>
+<img src="gfx/4_HS_web_open-small.png" width="300"/>
 
 # MQTT
 Module connecting to its own MQTT broker which can be used free of charge bu the user.
