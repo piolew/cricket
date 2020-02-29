@@ -133,6 +133,9 @@ Template
 
 **/{SN}/{prop}**
 
+Example:
+/XXXXXXX/io2
+
 where<br>
 **{SN}**    - Module unique serial number <img src="gfx/Cricket-serial-number-400px.png" width="150"/><br>
 **{prop}**  - Module property/sensor type
@@ -148,7 +151,6 @@ d- single decimal digit
 Analog signal can be converted to voltage using following formula
 
 Vanalog = digital_value * (3.5/256)
-
 
 # HTTP Push 
 
