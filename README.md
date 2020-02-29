@@ -134,8 +134,8 @@ Template
 **/{SN}/{prop}**
 
 where<br>
-SN    - Module unique serial number <img src="gfx/Cricket-serial-number-400px.png" width="150"/><br>
-prop  - Module property/sensor type
+**{SN}**    - Module unique serial number <img src="gfx/Cricket-serial-number-400px.png" width="150"/><br>
+**{prop}**  - Module property/sensor type
 
 |Name   | Format | Unit | Example  | Description  | 
 |---|---|---|---|---|
