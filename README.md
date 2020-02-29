@@ -22,7 +22,7 @@ Main features:
 * Easy integration with IFTTT
 
 
-<img src="https://github.com/thingsonedge/cricket/blob/master/gfx/UseCases.png" alt="drawing" width="800"/>
+<img src="/gfx/Cricket-with-desc-small.png" alt="drawing" width="800"/>
 
 
 TBD
