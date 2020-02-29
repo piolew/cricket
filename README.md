@@ -107,8 +107,8 @@ Password: <b>thingsonedge</b><br><br>
 Once connected, open a private web page: <a href="http://192.168.4.1/index.html" target="_blank"><b>http://192.168.4.1/index.html</b></a>
 <b>NOTICE: make sure LED is still ON! If is OFF repeat the steps from the beginning (Step 1.)</b>
 Now you can pass your Wi-Fi network credentials and click CONNECT. If you passed correct SSID and Password then after few seconds the device should report it is online and the LED will be OFF.
-<br>
-Congratulations! Now your device is live and connected to the internet!
+<br><br>
+Congratulations! Now your device is live and connected to the internet!<br>
 
 # MQTT
 Module connecting to its own MQTT broker which can be used free of charge bu the user.
