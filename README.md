@@ -101,7 +101,7 @@ It opens the "<b>toe_device</b>" WiFi hotspot.<br>
 <h4>Step 2.</h4>
 Once the LED is constantly lit Cricket opened the "<b>toe_device</b>" private Wi-Fi hot spot. Connect to this hot spot either from a laptop or smartphone with the following credentials:<br>
 SSID: <b>toe_device</b><br>
-Password: <b>thingsonedge</b><br>
+Password: <b>thingsonedge</b><br><br>
 <img src="gfx/1_connect_to_hotspot_.png" width="200"/>
 <h4>Step 3.</h4>
 Once connected, open a private web page: <a href="http://192.168.4.1/index.html" target="_blank"><b>http://192.168.4.1/index.html</b></a>
