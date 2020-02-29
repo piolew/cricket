@@ -93,7 +93,7 @@ lifetime = 10000 / (6*365) = 4.6 years = 4 year 7 months
 <h4>Step 1.</h4>
 Press a button on the <b>{{sel_mod_sn}}</b> module for about <b>5 seconds</b> until LED is lit constantly.<br>
 It opens the "<b>toe_device</b>" WiFi hotspot.<br>
-<img src="/static/bind_module_init.jpg"/>
+<img src="/gfx/Cricket-with-button.png"/>
 <h4>Step 2.</h4>
 From a laptop or a smartphone connect to the hotspot:<br>
 SSID: "<b>toe_device</b>"<br>
