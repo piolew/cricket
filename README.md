@@ -90,10 +90,14 @@ lifetime = 10000 / (6*365) = 4.6 years = 4 year 7 months
 # Configuration
 
 # Connect to Wi-Fi network
+Connect Cricket to the internet with Wi-Fi network in a few steps. All you need to do is to activate Cricket's private Wi-Fi hotspot and then open a private web page to pass your Wi-Fi network credentials.
+
+Please follow the steps below:
+
 <h4>Step 1.</h4>
-Press a button on the <b>{{sel_mod_sn}}</b> module for about <b>5 seconds</b> until LED is lit constantly.<br>
+Press and hold a button on Cricket for 5 seconds until the LED is constantly lit.
 It opens the "<b>toe_device</b>" WiFi hotspot.<br>
-<img src="/gfx/Cricket-with-button.png"/>
+<img src="/gfx/Cricket-with-button.png" width="300"/>
 <h4>Step 2.</h4>
 From a laptop or a smartphone connect to the hotspot:<br>
 SSID: "<b>toe_device</b>"<br>
