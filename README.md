@@ -89,7 +89,19 @@ lifetime = 10000 / (6*365) = 4.6 years = 4 year 7 months
 
 # Configuration
 
-# Binding
+# Connect to Wi-Fi network
+<h4>Step 1.</h4>
+Press a button on the <b>{{sel_mod_sn}}</b> module for about <b>5 seconds</b> until LED is lit constantly.<br>
+It opens the "<b>toe_device</b>" WiFi hotspot.<br>
+<img src="/static/bind_module_init.jpg"/>
+<h4>Step 2.</h4>
+From a laptop or a smartphone connect to the hotspot:<br>
+SSID: "<b>toe_device</b>"<br>
+Password: "<b>thingsonedge</b>"<br>
+<img src="/static/bind_module_hotspot.jpg"/>
+<h4>Step 3.</h4>
+Open <a href="http://192.168.4.1/index.html" target="_blank"><b>http://192.168.4.1/index.html</b></a> from any web browser. Type your WiFi credentials and connect. Now your module is connected!<br>
+<img src="/static/bind_module_browser.jpg"/>
 
 # MQTT
 Module connecting to its own MQTT broker which can be used free of charge bu the user.
