@@ -140,7 +140,7 @@ where<br>
 **{SN}**    - Module unique serial number <img src="gfx/Cricket-serial-number-400px.png" width="150"/><br>
 **{prop}**  - Module property/sensor type
 
-|Name   | Format | Unit | Example  | Description  | 
+|{prop}   | Format | Unit | Example  | Description  | 
 |---|---|---|---|---|
 | temp | dd.d | C | 12.5  | Temperature from on-board sensor  |
 | batt  | ddd  | decimals  | 124  | Current battery voltage level represented as 8bits decimal value  |
