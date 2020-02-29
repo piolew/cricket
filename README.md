@@ -99,9 +99,9 @@ Press and hold a button on Cricket for 5 seconds until the LED is constantly lit
 It opens the "<b>toe_device</b>" WiFi hotspot.<br>
 <img src="/gfx/Cricket-with-button.png" width="300"/>
 <h4>Step 2.</h4>
-From a laptop or a smartphone connect to the hotspot:<br>
-SSID: "<b>toe_device</b>"<br>
-Password: "<b>thingsonedge</b>"<br>
+Once the LED is constantly lit Cricket opened the "<b>toe_device</b>" private Wi-Fi hot spot. Connect to this hot spot either from a laptop or smartphone with the following credentials:
+SSID: <b>toe_device</b>
+Password: <b>thingsonedge</b>
 <img src="/static/bind_module_hotspot.jpg"/>
 <h4>Step 3.</h4>
 Open <a href="http://192.168.4.1/index.html" target="_blank"><b>http://192.168.4.1/index.html</b></a> from any web browser. Type your WiFi credentials and connect. Now your module is connected!<br>
