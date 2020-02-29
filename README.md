@@ -95,7 +95,7 @@ Connect Cricket to the internet with Wi-Fi network in a few steps. All you need 
 Please follow the steps below:
 
 <h4>Step 1.</h4>
-Press and hold a button on Cricket for 5 seconds until the LED is constantly lit.
+Press and hold a button on Cricket for <b>5 seconds</b> until the LED is constantly lit.
 It opens the "<b>toe_device</b>" WiFi hotspot.<br>
 <img src="/gfx/Cricket-with-button.png" width="300"/>
 <h4>Step 2.</h4>
