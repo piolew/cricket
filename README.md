@@ -24,9 +24,8 @@ Main features:
 
 <img src="/gfx/Cricket-with-desc-small.png" alt="drawing" width="800"/>
 
-
-TBD
-MEasure Wake-up hi level 
+# Examples of what you can build
+* <a href="https://www.thingsonedge.com/post/manage-your-blog-from-your-live-site" target="_blank"><b>IoT: Wi-Fi moisture sensor powered on a battery</b></a>
 
 # HW description
 
