@@ -126,16 +126,25 @@ PICTURE
 
 
 # MQTT
-Cricket module sends MQTT messages via a central Things On Edge MQTT broker. Every module comes with a unique serial number which is used for user and password authentication credentials. Every data is sent on a separate MQTT topic. 
-<br>
-Address: **mqtt.thingsonedge.com**
+Cricket module sends MQTT messages via a central Things On Edge MQTT broker. Every module comes with a unique serial number which is used for user and password authentication credentials. Every data is sent on a separate MQTT topic.
+
+
+Server address: **mqtt.thingsonedge.com**
+
+
 Port: **1883**
+
 
 All available topics for Cricket are listed below:
 
-Topic teample:<br>
-**/{SN}/{prop}**<br>
-where<br>
+Topic teample:
+
+
+**/{SN}/{prop}**
+
+
+where:
+
 **{SN}**    - Module unique serial number <img src="gfx/Cricket-serial-number-400px.png" width="150"/><br>
 **{prop}**  - Module property/sensor type (see the table below for more information)
 
