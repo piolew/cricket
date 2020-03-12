@@ -109,32 +109,38 @@ Now you can pass your Wi-Fi network credentials and click CONNECT. If you passed
 <br>
 Congratulations! Now your device is live and connected to the internet!<br>
 
+# Connectivity
+There are two ways of publishing data from the moduke to the online service.
+
+MQTT - module comes with already integrated MQTT connectivity
+HTTP - module can be configured to push HTTP Push request to desired location with customized payload
+
+MQTT connectivity is always enabled and if there is any data to publish the module will perform MQTT publish to the specyfic topic.
+Then, client can connect to ThingsOnEdge MQTT broker and subscribe for that topic to receive recent data update.
+
+PICTURE
+
+If user already using another MQTT broker it is possible to establish connection between 2 brokers in such way that client's broker subscribe specyfic topic from
+ThingsOnEdge broker.
+
+PICTURE
+
+Available topics for Cricket
+
+| Topic | mqtt.thingsonedge.com |
+| cliend_id | any |
+
+
+
+
 # MQTT
 Module connecting to its own MQTT broker which can be used free of charge bu the user.
-Every sensor data is published using separate topics and can be read by MQTT client usually MQTT client mobile application or MQTT Client service.
+Every data send over MQTT from the module uses separate MQTT topics. 
 
-## Connecting to the ThingsOnEdge MQTT broker
+List of of all topics
 
-MQTT broker server requires authentication by providing login and password this is unique per each module.
-For each module login and password is a module serial number provided on the back of the board.
-
-
-| url | mqtt.thingsonedge.com |
-| cliend_id | any |
-| login | module serial number|
-| password | module serial number|
-
-Each message is delivered using retained flag, therefore last value of each sensor is cached in the server.
-
-### MQTT topics 
-
-Template
-
+Topic teample
 **/{SN}/{prop}**
-
-Example:
-/XXXXXXX/io2
-
 where<br>
 **{SN}**    - Module unique serial number <img src="gfx/Cricket-serial-number-400px.png" width="150"/><br>
 **{prop}**  - Module property/sensor type
@@ -144,12 +150,17 @@ where<br>
 | temp | dd.d | C | 12.5  | Temperature from on-board sensor  |
 | batt  | ddd  | decimals  | 124  | Current battery voltage level represented as 8bits decimal value  |
 | io2  | ddd | decimals  | 100  | Current level on the IO2 port, if IO2 is configured as digital this is either 0 or 1  |
+| io1_wake_up  | ddd | decimals  | 1  | The payload of that topic is 1 if board was woken up using IO1 pin otherwise os 0. This message is only published if either IO1 wake-up is triggered or "Force updates on" is enabled in the module configuration.  |
 
 d- single decimal digit
 
-Analog signal can be converted to voltage using following formula
 
-Vanalog = digital_value * (3.5/256)
+## Connecting to the ThingsOnEdge MQTT broker
+MQTT broker server requires authentication by providing login and password which is unique for each module.
+Module serial number shnould be use for both password and user when connecting from MQTT client.
+
+
+
 
 # HTTP Push 
 
