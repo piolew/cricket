@@ -153,7 +153,7 @@ where<br>
 | io1_wake_up  | ddd | decimals  | 1  | The payload value of that topic is 1 if module was woken up by IO1 pin otherwise is 0. This message is only published if either IO1 wake-up is triggered or "Force updates on" is enabled in the module configuration.  |
 | rtc_wake_up  | ddd | decimals  | 1  | The payload value of that topic is 1 if module was woken up by internal RTC otherwise is 0. This message is only published if either RTC wake-up is triggered or "Force updates on" is enabled in the module configuration.  |
 | cnt_wake_up  | ddd | decimals  | 11  | This is internal counter represnets number of times module was woken up. |
-| cnt_published  | ddd | decimals  |ß 11  | This is internal counter represnets number of times module published data to the service. |
+| cnt_published  | ddd | decimals  | 12  | This is internal counter represnets number of times module published data to the service. |
 
 
 d- single decimal digit
