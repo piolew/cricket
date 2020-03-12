@@ -150,7 +150,11 @@ where<br>
 | temp | dd.d | C | 12.5  | Temperature from on-board sensor  |
 | batt  | ddd  | decimals  | 124  | Current battery voltage level represented as 8bits decimal value  |
 | io2  | ddd | decimals  | 100  | Current level on the IO2 port, if IO2 is configured as digital this is either 0 or 1  |
-| io1_wake_up  | ddd | decimals  | 1  | The payload of that topic is 1 if board was woken up using IO1 pin otherwise os 0. This message is only published if either IO1 wake-up is triggered or "Force updates on" is enabled in the module configuration.  |
+| io1_wake_up  | ddd | decimals  | 1  | The payload value of that topic is 1 if module was woken up by IO1 pin otherwise is 0. This message is only published if either IO1 wake-up is triggered or "Force updates on" is enabled in the module configuration.  |
+| rtc_wake_up  | ddd | decimals  | 1  | The payload value of that topic is 1 if module was woken up by internal RTC otherwise is 0. This message is only published if either RTC wake-up is triggered or "Force updates on" is enabled in the module configuration.  |
+| cnt_wake_up  | ddd | decimals  | 11  | This is internal counter represnets number of times module was woken up. |
+| cnt_published  | ddd | decimals  |ß 11  | This is internal counter represnets number of times module published data to the service. |
+
 
 d- single decimal digit
 
