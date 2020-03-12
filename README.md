@@ -120,30 +120,24 @@ Then, client can connect to ThingsOnEdge MQTT broker and subscribe for that topi
 
 PICTURE
 
-If user already using another MQTT broker it is possible to establish connection between 2 brokers in such way that client's broker subscribe specyfic topic from
-ThingsOnEdge broker.
+If a user wishes to use a custom MQTT broker it is possible to establish connection between 2 brokers in such way that client's broker subscribe specyfic topic from Things On Edge MQTT broker.
 
 PICTURE
 
-Available topics for Cricket
-
-| Topic | mqtt.thingsonedge.com |
-| cliend_id | any |
-
-
-
 
 # MQTT
-Module connecting to its own MQTT broker which can be used free of charge bu the user.
-Every data send over MQTT from the module uses separate MQTT topics. 
+Cricket module sends MQTT messages via a central Things On Edge MQTT broker. Every module comes with a unique serial number which is used for user and password authentication credentials. Every data is sent on a separate MQTT topic. 
+<br>
+Address: **mqtt.thingsonedge.com**
+Port: **1883**
 
-List of of all topics
+All available topics for Cricket are listed below:
 
-Topic teample
-**/{SN}/{prop}**
+Topic teample:<br>
+**/{SN}/{prop}**<br>
 where<br>
 **{SN}**    - Module unique serial number <img src="gfx/Cricket-serial-number-400px.png" width="150"/><br>
-**{prop}**  - Module property/sensor type
+**{prop}**  - Module property/sensor type (see the table below for more information)
 
 |{prop}   | Format | Unit | Example  | Description  | 
 |---|---|---|---|---|
