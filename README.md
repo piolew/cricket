@@ -2,11 +2,9 @@
 
 # Overview
 
-Cricket is a ultra-low battery powered Wi-Fi module, which can last for years on a single battery. 
-It requires zero-code for building IoT devices an no hub to conenct to the internet.
-It comes with a pre-installed software, which is integrated into Cloud. 
-Connect devices to the internet out of the box either from a smartphone or a laptop from any web browser. 
-Manage devices remotely and integrate to other systems using MQTT protocol. 
+Cricket is a ultra-low battery powered IoT Wi-Fi module for developers. It doesn't require IOT hubs, any coding nor programming to build IoT devices to connect them to the internet. It comes with a pre-installed software integrated to the Cloud.
+Configure Cricket's connectivity out of the box either from a smartphone or a laptop from any web browser. 
+Manage device(s) remotely and integrate them to other systems using either MQTT protocol or HTTP Post Events.
 
 
 Main features:
@@ -19,7 +17,7 @@ Main features:
 * Cloud enabled HW configuration
 * Battery monitor
 * MQTT
-* Easy integration with IFTTT
+* HTTP Post Events (can be used for integration with IFTTT)
 
 
 <img src="/gfx/Cricket-with-desc-small.png" alt="drawing" width="800"/>
@@ -42,7 +40,7 @@ Main features:
 |||
 
 # Module operations
-The Cricket have 2 mode of operations 
+The Cricket have 2 operation modes:
 
 * Normal
 * Binding 
@@ -50,10 +48,9 @@ The Cricket have 2 mode of operations
 
 <img src="https://github.com/thingsonedge/cricket/blob/master/gfx/Operation.svg" alt="drawing" width="800"/>
 
-In normal operation board is powered off, in this state it needs aprox 250nA for RTC operation.
-The board will stay off till either external WAKE_UP singal is provided or internal RTC is anabled and alarm is triggered. 
-Once the board is woke up it perform FW initialization and preapare board for normal operation, this usually takes around 600ms. Next, board will read current configuration from its storage and evaluate all enabled sensors.
-All sensors or parameters are enabled or disabled via configuration in the cloud service.
+In a normal operation mode the board is powered off and it needs aproximately 250nA for the RTC operation only.
+The board is off until alarm is triggered from either an external WAKE_UP singal or an internal RTC.
+When the board wakes up it performs FW initialisation and preapares for the normal operation - it usually takes around 600ms. Next, the board reads the configuration from its storage and evaluates all attached & enabled sensors. The configuration (sensors, parameters, ...) is set on the cloud service (dev.thingsonedge.com) by a developer. Every time the board connects to the internet it retrieves the latest configuration from the cloud.
 
 Sensor evaluation process
 Check if sensor is enabled
