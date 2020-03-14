@@ -1,4 +1,6 @@
 [<img src="/gfx/logo.png" alt="drawing" width="200"/>](https://thingsonedge.com)
+[thingsonedge.com](https://thingsonedge.com)
+
 
 [<img src="/gfx/Leaflet-small.png" alt="drawing" width="200"/>](https://drive.google.com/file/d/1iJMbLQAMSyVuPYkd0Aa7GaR6Jpp-wKcA/view?usp=sharing)
 
