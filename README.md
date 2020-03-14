@@ -17,7 +17,7 @@ Main features:
 * Cloud enabled HW configuration
 * Battery monitor
 * MQTT
-* HTTP Post Events (can be used for integration with IFTTT)
+* HTTP Post Events (i.e. used for IFTTT integration)
 
 
 <img src="/gfx/Cricket-with-desc-small.png" alt="drawing" width="800"/>
