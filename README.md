@@ -111,7 +111,7 @@ Now you can pass your Wi-Fi network credentials and click CONNECT. If you passed
 Congratulations! Now your device is live and connected to the internet!<br>
 
 # Connectivity
-There are two ways of publishing data from the moduke to the online service.
+There are two ways of publishing data from the module to the online service.
 
 MQTT - module comes with already integrated MQTT connectivity
 HTTP - module can be configured to push HTTP Push request to desired location with customized payload
