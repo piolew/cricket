@@ -2,8 +2,7 @@
 
 # Overview
 
-Cricket is a ultra-low battery powered IoT Wi-Fi module for developers. It doesn't require IOT hubs, any coding nor programming to build IoT devices to connect them to the internet. It comes with a pre-installed software integrated to the Cloud.
-Configure Cricket's connectivity out of the box either from a smartphone or a laptop from any web browser. 
+Cricket is a ultra-low battery powered IoT Wi-Fi module for developers. It doesn't require IOT hubs, any coding nor programming to connect devices to the internet. It comes with a pre-installed software and integrated FREE Cloud service (Developer Portal / MQTT broker). Configure Cricket's connectivity out of the box either from a smartphone or a laptop from any web browser. 
 Manage device(s) remotely and integrate them to other systems using either MQTT protocol or HTTP Post Events.
 
 
