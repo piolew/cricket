@@ -162,6 +162,10 @@ where:
 
 d- single decimal digit
 
+Examples:
+To monitor temperature of device AABBCCDD use topic /AABBCCDD/temp
+To monitor battery level of the device AABBCCDD use topic /AABBCCDD/batt
+
 
 ## Connecting to the ThingsOnEdge MQTT broker
 MQTT broker server requires authentication by providing login and password which is unique for each module.
