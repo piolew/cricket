@@ -28,6 +28,7 @@ Main features:
 
 # Examples of what you can build
 * <a href="https://www.thingsonedge.com/post/manage-your-blog-from-your-live-site" target="_blank"><b>IoT: Wi-Fi moisture sensor powered on a battery</b></a>
+* <a href="https://www.thingsonedge.com/post/wi-fi-button-with-ifttt-integration-built-with-cricket-module" target="_blank"><b>Wi-Fi Button with IFTTT integration - built with Cricket module</b></a>
 
 # HW description
 
