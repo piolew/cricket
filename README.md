@@ -6,6 +6,8 @@
 
 Very easy to use, ultra-low power Wi-Fi module, which can run directly on batteries. Designed for developers at all skill levels from advanced to those who just start building IOT devices.
 
+<img src="/gfx/slide-01.png" alt="drawing" width="800"/>
+
 Cricket is a perfect choice if you want to build IOT end nodes such as sensors, alarms, buttons, switches,  etc. to report data and events instantenously from remote locations. What is really cool is the ultra-low power feature, which will make your devices to run on single batteries for a very long time (for years in many use cases).
 
 With Cricket you can connect various peripherals to Wi-Fi out of the box; send data and events either within local network or to the internet. Simply attach a battery and peripheral(s) to Cricket and your device is ready to go.
@@ -29,7 +31,7 @@ FEATURES:
 - Remote configuration
 - OTA firmware updates
 
-<img src="/gfx/Cricket-with-desc-small.png" alt="drawing" width="800"/>
+<img src="/gfx/slide-03.png" alt="drawing" width="800"/>
 
 
 Find out more at [thingsonedge.com](https://thingsonedge.com)
