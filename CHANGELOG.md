@@ -5,7 +5,7 @@ This FW upgrade require erase both WiFi creadencial and configuration partitions
 After FW upgrdate Cricket will back to binding mode.
 
 
-## BUGS fixed
+## Bugs fixed
 ISSUE #79 - When pressing BIN buttom Cricket fetch cofing from COTA even when COTA is disabled on the device.\
 ISSUE #73 - Binidng UI missplaced on Apple devices.\
 ISSUE #58 - WiFi password limited to 32 characters. Limit increased to 64 characters.\
